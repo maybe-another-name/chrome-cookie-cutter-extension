@@ -1,0 +1,21 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/bg.1.js" ]
+   },
+   "browser_action": {
+      "default_title": "__MSG_extTitle__"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "manifest_version": 2,
+   "minimum_chrome_version": "54.0",
+   "name": "__MSG_extName__",
+   "offline_enabled": true,
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "manager.html"
+   },
+   "permissions": [ "cookies", "\u003Call_urls>", "contextMenus", "storage" ],
+   "version": "2.1.0.0"
+}

@@ -4,18 +4,17 @@
       "scripts": [ "js/bg.1.js" ]
    },
    "browser_action": {
-      "default_title": "__MSG_extTitle__"
+      "default_title": "Cookie Cutter"
    },
-   "default_locale": "en",
-   "description": "__MSG_extDesc__",
+   "description": "Save, edit, and load cookies.",
    "manifest_version": 2,
    "minimum_chrome_version": "54.0",
-   "name": "__MSG_extName__",
+   "name": "Cookie Cutter",
    "offline_enabled": true,
    "options_ui": {
       "open_in_tab": true,
       "page": "manager.html"
    },
-   "permissions": [ "cookies", "\u003Call_urls>", "contextMenus", "storage" ],
-   "version": "2.1.0.0"
+   "permissions": [ "cookies", "\u003Call_urls>", "storage" ],
+   "version": "0.2"
 }

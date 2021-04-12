@@ -79,35 +79,4 @@
 		return !1;
 	});
 	chrome.browserAction.onClicked.addListener(k);
-	chrome.contextMenus.removeAll();
-	chrome.contextMenus.create({
-		id: '7285',
-		title: '\u2615︎ Donate \u2026',
-		contexts: ['browser_action']
-	});
-	chrome.contextMenus.create({
-		id: '7286',
-		title: '\u2665 Rate Me \u2026',
-		contexts: ['browser_action']
-	});
-	chrome.contextMenus.create({
-		id: '7287',
-		title: "\u266B What's New \u2026",
-		contexts: ['browser_action']
-	});
-	chrome.contextMenus.create({
-		id: '7288',
-		title: '\u260E Feedback \u2026',
-		contexts: ['browser_action']
-	});
-	chrome.contextMenus.create({
-		id: '7289',
-		title: 'Edit Cookies',
-		contexts: ['page']
-	});
-	chrome.contextMenus.onClicked.addListener(function (a, e) {
-		a = a.menuItemId;
-		if (7289 == a)
-			k(), c(2);		
-	});
 }());

@@ -10,4 +10,5 @@ Of particular note is the "\u003Call_urls>" permission:
  * doesn't appear isn't listed here: https://support.google.com/chrome/a/answer/7515036?hl=en
  * nor is it listed here: https://developer.chrome.com/docs/extensions/mv2/declare_permissions/
  * does appear to be malformed, with the leading unicode
- * is required verbatim to actually read cookies...
+ * properly formatted is listed in a v3 example: https://github.com/GoogleChrome/chrome-extensions-samples/blob/main/api/cookies/cookie-clearer/manifest.json
+ * documentation indicates it is required: https://developer.chrome.com/docs/extensions/reference/cookies/

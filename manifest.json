@@ -15,6 +15,6 @@
       "open_in_tab": true,
       "page": "manager.html"
    },
-   "permissions": [ "cookies", "\u003Call_urls>", "storage" ],
+   "permissions": [ "cookies", "<all_urls>", "storage" ],
    "version": "0.2"
 }
